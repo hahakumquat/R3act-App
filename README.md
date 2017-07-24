@@ -1,1 +1,1 @@
-Data found here: http://www.bmi.teicrete.gr/index.php/research/mobiact
+Data found here, use V2: http://www.bmi.teicrete.gr/index.php/research/mobiact
