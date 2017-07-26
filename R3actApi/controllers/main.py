@@ -1,5 +1,6 @@
 from flask import *
 from extensions import mysql
+import data_tester
 
 main = Blueprint('main', __name__, template_folder='templates')
 
@@ -9,26 +10,19 @@ def main_route():
 		content = request.get_json()
 		# {
 		# 	"results":
-		# 	[
-		# 	{
-		# 		"t": time, 
-		# 		"x": x, 
-		# 		"y": y, 
-		# 		"z":z,
-		# 	},
-		# 	]
+		# 	[[t,x,y,z],[t,x,y,z]]
 		# }
 		data = content["results"]
-		x = 0
-		y = 0
-		z = 0
-		for dataPoint in data:
-			x = dataPoint["x"]
-			y = dataPoint["y"]
-			t = dataPoint["t"]
+		# x = 0
+		# y = 0
+		# z = 0
+		verdict = predict_falling(dataPoint)
+		# for dataPoint in data:
+		# 	t = dataPoint[0]
+		# 	x = dataPoint[1]
+		# 	y = dataPoint[2]
+		# 	z = dataPoint[3]
+			# print dataPoint
+			#predict_falling(dataPoint)
 
-		fallen = False
-		if (y > 5):
-			fallen = True
-
-		return jsonify(fallen=fallen)
+		return jsonify(fallen=verdict)

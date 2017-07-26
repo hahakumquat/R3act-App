@@ -13,9 +13,6 @@ app.config['MYSQL_DB'] = ''
 mysql.init_app(app)
 
 # Register the controllers
-app.register_blueprint(controllers.album)
-app.register_blueprint(controllers.albums)
-app.register_blueprint(controllers.pic)
 app.register_blueprint(controllers.main)
 
 # Listen on external IPs

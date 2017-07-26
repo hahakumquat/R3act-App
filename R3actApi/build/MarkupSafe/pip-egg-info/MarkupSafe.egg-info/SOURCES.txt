@@ -1,0 +1,16 @@
+AUTHORS
+CHANGES
+LICENSE
+MANIFEST.in
+setup.cfg
+tests.py
+markupsafe/__init__.py
+markupsafe/_compat.py
+markupsafe/_constants.py
+markupsafe/_native.py
+markupsafe/_speedups.c
+pip-egg-info/MarkupSafe.egg-info/PKG-INFO
+pip-egg-info/MarkupSafe.egg-info/SOURCES.txt
+pip-egg-info/MarkupSafe.egg-info/dependency_links.txt
+pip-egg-info/MarkupSafe.egg-info/not-zip-safe
+pip-egg-info/MarkupSafe.egg-info/top_level.txt
