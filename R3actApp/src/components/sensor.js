@@ -7,22 +7,23 @@ import Communications from 'react-native-communications';
 import SendSMS from 'react-native-sms'
 
 var dataPoints = [];
+var interval = 100; // 1ms
 var time = 0;
 var server = 'http://10.104.106.183:3000';
 var isTrackScreen = true;
 
-const { Accelerometer, Gyroscope } = RNSensors;
+const { Accelerometer } = RNSensors;
 const accelerationObservable = new Accelerometer({
-  updateInterval: 1, // defaults to 100ms
+  updateInterval: interval,
 });
 
-const gyroscopeObservable = new Gyroscope({
-  updateInterval: 2000, // defaults to 100ms
-});
+// const gyroscopeObservable = new Gyroscope({
+//   updateInterval: interval,
+// });
 
 DeviceEventEmitter.addListener('Accelerometer', function(data) {
   var SendIntentAndroid = require('react-native-send-intent');
-  time = time + 1;
+  time = time + interval;
   dataPoints.push(
   {
     "t": time, 
@@ -41,10 +42,10 @@ DeviceEventEmitter.addListener('Accelerometer', function(data) {
     AsyncStorage.getItem('contact').then((value) => {
       contactName = value;
     }).done();
-    contactNumber = AsyncStorage.getItem('number').then((value) => {
+    AsyncStorage.getItem('number').then((value) => {
       contactNumber = value;
     }).done();
-    age = AsyncStorage.getItem('age').then((value) => {
+    AsyncStorage.getItem('age').then((value) => {
       age = value;
     }).done();
     AsyncStorage.getItem('gender').then((value) => {
@@ -82,8 +83,9 @@ DeviceEventEmitter.addListener('Accelerometer', function(data) {
         }
       })
       .catch((error) => {
-        //ToastAndroid.show('ERROR: ' + error, ToastAndroid.SHORT);
+        ToastAndroid.show('ERROR: ' + error, ToastAndroid.SHORT);
       });
+      dataPoints = [];
   }
   // if (data.x > 4 || data.y > 4) {
     // SendIntentAndroid.sendPhoneCall('2487033234')
@@ -122,18 +124,20 @@ export default class sensor extends Component {
         acceleration,
       }));
 
-    gyroscopeObservable
-      .subscribe(gyroscope => this.setState({
-        gyroscope,
-      }));
+    // gyroscopeObservable
+    //   .subscribe(gyroscope => this.setState({
+    //     gyroscope,
+    //   }));
   }
 
   navToTrackPage() {
     isTrackScreen = true;
+    ToastAndroid.show("Track pressed", ToastAndroid.SHORT);
   }
 
   navToContactPage() {
     isTrackScreen = false;
+    ToastAndroid.show("Contact pressed", ToastAndroid.SHORT);
   }
 
   saveData(key, value) {
@@ -147,7 +151,7 @@ export default class sensor extends Component {
   render() {
     const {
       acceleration,
-      gyroscope,
+      // gyroscope,
     } = this.state;
 
     return (
@@ -171,18 +175,6 @@ export default class sensor extends Component {
             <Text style={styles.instructions}>
               z: {acceleration.z}
             </Text>
-            <Text style={styles.welcome}>
-              Gyroscope:
-            </Text>
-            <Text style={styles.instructions}>
-              x: {gyroscope.x}
-            </Text> 
-            <Text style={styles.instructions}>
-              y: {gyroscope.y}
-            </Text>   
-            <Text style={styles.instructions}>
-              y: {gyroscope.y}
-            </Text>  
           </View>
           ) : (
           <View>
