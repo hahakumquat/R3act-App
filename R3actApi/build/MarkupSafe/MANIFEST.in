@@ -1,2 +1,0 @@
-include AUTHORS CHANGES LICENSE tests.py
-recursive-include markupsafe *.c

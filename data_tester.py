@@ -107,10 +107,14 @@ def trim_threshold(data, threshold):
     return (l_trim, r_trim)
 
 
-def standardize_data(result, data):
+def standardize_data(result, data, debug=False):
+    if debug:
+        print(result)
+        print(data)
+        print(data[-1], data[0])
     x_med = np.median([d[1] for d in data])
     y_med = np.median([d[2] for d in data])
-    z_med = np.median([d[3] for d in data])     
+    z_med = np.median([d[3] for d in data])
     result['duration'] = (data[-1][0] - data[0][0]) / time_unit
     ## standardizes Y data by median and X time to 0 second start
     data = list(map(lambda d : 
@@ -208,10 +212,11 @@ for cat in categories:
 rfc = RandomForestClassifier()
 rfc.fit(X_train+X_val, Y_train+Y_val)
 
-def predict_falling(obj):
-    data = trim_data(obj['results'])
-    results = {'Age' : 38, 'Height' : 180, 'Weight' : 70, 'Gender' : 'Male'}
-    results, data = standardize_data(results, data)
+def predict_falling(results, obj, debug=False):
+    data = trim_data(obj)
+    if len(data) == 0:
+        return 'Not Fall'
+    results, data = standardize_data(results, data, True)
     results['data'] = data
     results = flatten(bucket(results))
     return rfc.predict(results)
