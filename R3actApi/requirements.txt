@@ -1,0 +1,8 @@
+Flask==0.10.1
+Flask-MySQLdb==0.2.0
+gunicorn==18.0
+Jinja2==2.8
+MarkupSafe==0.23
+MySQL-python==1.2.5
+Werkzeug==0.9.4
+wheel==0.24.0
