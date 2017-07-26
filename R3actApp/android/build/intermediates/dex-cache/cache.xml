@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_b9bb13edce39f9dd49393f12359e031c61d9ff2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.0.1_56a05de774c94ce2568ea28fec64c51ef265ac06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_5377634dc833d686e15fa400b9b8d608fbc665f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_f874d996514c562c80e1c42a12c9c85ece427f6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_0d339105433b84ef5aa29e2d76b0a2bcdd222ccf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_0ee5688134a14cf7ace96a78679f2d0ce943fbfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\R3act\react-native-sensors\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e27f52419d8a256773b111f3d609c27596a2ff74">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\R3act-react-native-sensors-unspecified_b98a5e99c43ca0a247f8399e6f826739d139846f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.0.1_c93cbc710ca151531696a31b460f3e223aa5f9ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.0.1_47652a9b85844c14079a2dd16d78ef7aa3a69ca0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.0.1_d00de2b55f4a9e8a16a597c8896b26606d05e3d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.46.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c5526d30278eb171f4a1325bd6b927c9057c91f4">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.46.4_a843ede539fb94be47e6ddd207ea426fec3aef54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_3e2ff26a19cfa8ac0f437eee80dcc051f428f2e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_ed91956efc0489ac56b9fed64662a8b0f55894a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_37703cd3baaef457a6b8efdaf07c7260ab24ea6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_377d3b9aa9ec62999a53b52191e136e63d6c968c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_4642bb4da7e763ddd01c93ffbeccb06ca111d470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_bc56b7ddd9f0924c4f635eb6fa7fea0ce390020b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.46.4\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_247076211a938ea39d127026a85e356adf8a7f79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.0.1_390316c0b2266c520fd501382518b85ebf8eeb6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_1d1aacd421bdbe15de43c1cfd4121f1a490821f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_e4d81fa251b9dd8eae27a8246cc8820b56c0ec9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_34991f871ea5211faebec898299870941695e9e2.jar" />
+    </item>
+
+</items>
