@@ -10,7 +10,10 @@
 		"native-base": "^2.3.0",
 		"react": "16.0.0-alpha.12",
 		"react-native": "0.46.4",
-		"react-native-sensors": "^2.3.1"
+		"react-native-communications": "^2.2.1",
+		"react-native-send-intent": "^1.0.18",
+		"react-native-sensors": "^2.3.1",
+		"react-native-sms": "^1.4.2"
 	},
 	"devDependencies": {
 		"babel-jest": "20.0.3",
