@@ -180,7 +180,7 @@ margin = 0.2
 time_unit = 1000000000
 duration = 5
 quantile_trim = [0.02, 0.98]
-n_buckets = 30
+n_buckets = 20
 categories = load('MobiFall/', False)
 for cat in categories:
     for i in range(len(categories[cat])):
@@ -214,4 +214,4 @@ def predict_falling(results, obj):
     results, data = standardize_data(results, data)
     results['data'] = data
     results = flatten(bucket(results))
-    return rfc.predict(results)
+    return rfc.predict(np.array([results]))
