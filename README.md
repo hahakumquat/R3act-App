@@ -6,15 +6,15 @@ Detects falls with a machine learning algorithm using accelerometer data collect
 
 Front End:
 - React Native
-  -- native-base
-  -- react-native-communications
-  -- react-native-send-intent
-  -- react-native-sensors
+  - native-base
+  - react-native-communications
+  - react-native-send-intent
+  - react-native-sensors
 
 Back End:
 - Flask Server
 - Python
-  -- scipy 
+  - scipy 
 
 # Appendix
 
