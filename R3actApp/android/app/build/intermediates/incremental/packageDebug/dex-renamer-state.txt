@@ -1,4 +1,4 @@
-#Tue Jul 25 20:13:19 PDT 2017
+#Wed Jul 26 07:16:42 PDT 2017
 base.0=C\:\\Users\\t-amche\\Documents\\R3act\\R3actApp\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\t-amche\\Documents\\R3act\\R3actApp\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_bc56b7ddd9f0924c4f635eb6fa7fea0ce390020b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -81,78 +90,6 @@
         revision="23.0.1"
         sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
         <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.0.1_47652a9b85844c14079a2dd16d78ef7aa3a69ca0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
-        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.0.1_d00de2b55f4a9e8a16a597c8896b26606d05e3d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.46.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c5526d30278eb171f4a1325bd6b927c9057c91f4">
-        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.46.4_a843ede539fb94be47e6ddd207ea426fec3aef54.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_3e2ff26a19cfa8ac0f437eee80dcc051f428f2e6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_ed91956efc0489ac56b9fed64662a8b0f55894a9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_37703cd3baaef457a6b8efdaf07c7260ab24ea6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_377d3b9aa9ec62999a53b52191e136e63d6c968c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_4642bb4da7e763ddd01c93ffbeccb06ca111d470.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_bc56b7ddd9f0924c4f635eb6fa7fea0ce390020b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,6 +120,33 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.0.1_d00de2b55f4a9e8a16a597c8896b26606d05e3d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.46.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c5526d30278eb171f4a1325bd6b927c9057c91f4">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.46.4_a843ede539fb94be47e6ddd207ea426fec3aef54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_3e2ff26a19cfa8ac0f437eee80dcc051f428f2e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -192,12 +156,66 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_ed91956efc0489ac56b9fed64662a8b0f55894a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\R3act\react-native-sms\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f847c7ca5f81ba1dc0f92abce482c4e4f146f02c">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\R3act-react-native-sms-unspecified_a71cfcc4f21e0e0f226bb8a97bc58134a77fdac1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_37703cd3baaef457a6b8efdaf07c7260ab24ea6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\t-amche\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
         <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_34991f871ea5211faebec898299870941695e9e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\R3act\react-native-send-intent\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72c653320011c6dd3feffad69d97c098b7a1c1b8">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\R3act-react-native-send-intent-unspecified_55a60f5ae63508c867d86c1a9b1fa1666d58413a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_377d3b9aa9ec62999a53b52191e136e63d6c968c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="C:\Users\t-amche\Documents\R3act\R3actApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_4642bb4da7e763ddd01c93ffbeccb06ca111d470.jar" />
     </item>
 
 </items>
