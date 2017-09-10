@@ -3,3 +3,6 @@ MobiFall*
 flask*
 .ipynb_checkpoints
 .ipynb_checkpoints/*
+
+.DS_Store
+*.py[cod]
