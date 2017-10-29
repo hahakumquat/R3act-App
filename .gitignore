@@ -3,3 +3,8 @@ MobiFall*
 flask*
 .ipynb_checkpoints
 .ipynb_checkpoints/*
+.vagrant*
+.vagrant/*
+.idea
+__pycache__
+*.py[cod]
